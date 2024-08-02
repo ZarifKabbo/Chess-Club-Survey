@@ -1,0 +1,75 @@
+body{
+background-image: url(https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?cs=srgb&dl=pexels-pixabay-260024.jpg&fm=jpg);
+background-size: cover;
+background-repeat: no-repeat;
+color: #eeeeee
+}
+.content{
+  margin:0 auto;
+  height: 100vh;
+  width: 100%;
+  
+}
+#title{
+  text-align: center;
+  font-family: Impact;
+  font-size: 2.0em;
+  color: #eeeeee;
+  text-transform: uppercase;
+  margin: 0;
+}
+#description{
+  text-align: center;
+  font-style: Italic;
+  font-size: 0.9em;
+  margin:5px 0;
+  color: #eeeeee;
+}
+form{
+  background-color: rgba(0,0,0, 0.5);
+  width: 70%;
+  margin: 5 auto;
+  padding: 15px;
+  border-radius: 15px;
+}
+.from_group{
+  display: block;
+  margin: 20px 20px
+}
+input[type="text"],input[type="email"], input[type="number"]{
+  width:100%;
+  height: 2.5em;
+  border-radius: 5px;
+  border: none;
+  padding: 0 15px;
+}
+input[type="text"]:focus,input[type="email"]:focus, input[type="number"]:focus{
+  outline: none;
+}
+label,p{
+  font-size: 1.2em;
+  margin:10;
+  font-weight: bold;
+}
+select{
+  width:100%;
+  height: 2.5em;
+  border-radius: 5px;
+  border: none;
+  padding: 0 15px;
+}
+textarea{
+  min-height: 10em;
+  min-width: 100%;
+  max-width: 100%;
+}
+input[type="submit"]{
+  height:2.5em;
+  width: 100%;
+  background-color: #eeeeee;
+  border:none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
